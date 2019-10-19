@@ -1,0 +1,22 @@
+{
+    "name": "ravjanisz/objectsize",
+    "description": "objectsize",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafał Janisz",
+            "email": "rav.janisz@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rav\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ravjanisz/readablesize": "*",
+        "phpunit/phpunit": "^8.3"
+    },
+    "minimum-stability": "dev"
+}

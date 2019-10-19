@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1571504704">
+  <project timestamp="1571504704">
+    <package name="Rav\ObjectSize">
+      <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/DirectorySize.php">
+        <class name="Rav\ObjectSize\DirectorySize" namespace="Rav\ObjectSize">
+          <metrics complexity="7" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="13" coveredelements="13"/>
+        </class>
+        <line num="10" type="method" name="inBytes" visibility="public" complexity="7" crap="7" count="4"/>
+        <line num="11" type="stmt" count="4"/>
+        <line num="12" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="3"/>
+        <line num="16" type="stmt" count="1"/>
+        <line num="19" type="stmt" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="2"/>
+        <line num="22" type="stmt" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="29" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <metrics loc="33" ncloc="33" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="13" coveredelements="13"/>
+      </file>
+      <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/FileSize.php">
+        <class name="Rav\ObjectSize\FileSize" namespace="Rav\ObjectSize">
+          <metrics complexity="3" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+        </class>
+        <line num="7" type="method" name="inBytes" visibility="public" complexity="3" crap="3" count="5"/>
+        <line num="8" type="stmt" count="5"/>
+        <line num="9" type="stmt" count="1"/>
+        <line num="12" type="stmt" count="4"/>
+        <line num="13" type="stmt" count="2"/>
+        <line num="16" type="stmt" count="2"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="5" coveredstatements="5" elements="6" coveredelements="6"/>
+      </file>
+      <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/ObjectBase.php">
+        <class name="Rav\ObjectSize\ObjectBase" namespace="Rav\ObjectSize">
+          <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+        </class>
+        <line num="15" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="16" type="stmt" count="5"/>
+        <line num="17" type="stmt" count="5"/>
+        <line num="19" type="method" name="human" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="20" type="stmt" count="2"/>
+        <line num="21" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <metrics loc="27" ncloc="26" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="8" coveredelements="8"/>
+      </file>
+      <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/ObjectSize.php">
+        <class name="Rav\ObjectSize\ObjectSize" namespace="Rav\ObjectSize">
+          <metrics complexity="5" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+        </class>
+        <line num="7" type="method" name="setPath" visibility="public" complexity="3" crap="3" count="1"/>
+        <line num="9" type="stmt" count="1"/>
+        <line num="10" type="stmt" count="1"/>
+        <line num="11" type="stmt" count="1"/>
+        <line num="14" type="stmt" count="1"/>
+        <line num="15" type="stmt" count="1"/>
+        <line num="17" type="method" name="inBytes" visibility="public" complexity="2" crap="2" count="4"/>
+        <line num="18" type="stmt" count="4"/>
+        <line num="19" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <metrics loc="29" ncloc="20" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
+      </file>
+      <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/ObjectSizeException.php">
+        <class name="Rav\ObjectSize\ObjectSizeException" namespace="Rav\ObjectSize">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <file name="/var/www/html/objectsize.pl/package/src/ObjectSize/Size.php">
+      <metrics loc="7" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="6" loc="120" ncloc="110" classes="4" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="31" coveredstatements="31" elements="37" coveredelements="37"/>
+  </project>
+</coverage>
